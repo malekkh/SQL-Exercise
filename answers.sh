@@ -21,4 +21,20 @@ UPDATE graduates
     WHERE Name = "Layal";
 DELETE FROM students WHERE	Name = "Layal";
 
+----joins------
+
+CREATE TABLE infoEmp(
+	name TEXT,
+	Comp_Name TEXT,
+	Comp_Date INTEGER);
+
+
+SELECT * FROM companies
+WHERE date < 2000;
+
+SELECT Company FROM employees
+WHERE Role = "Graphic Designer";
+
+
+
 
